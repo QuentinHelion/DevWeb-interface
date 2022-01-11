@@ -1,0 +1,37 @@
+html{
+  margin: 0;
+  padding: 0;
+}
+header{
+  background: black;
+  padding: 10px;
+  text-align: center;
+  height: 10vh;
+}
+header > h1 {
+  color: white;
+}
+main{
+  background-color: #ecececec;
+  min-height: 90vh;
+}
+div#block{
+  background-color: white;
+  width: 25vw;
+  height: 15vh;
+}
+div#block:hover{
+  transition: .4s;
+  box-shadow: 15px 20px 30px rgba(0,0,0,.5);
+}
+a.noDecor{
+  text-decoration: none;
+  color: black;
+}
+p{
+  margin: 0;
+}
+img{
+  width: 13vh;
+  height: 13vh;
+}
